@@ -8,6 +8,6 @@
   3- Modify the configuration files of darknet YOLO according to the dataset. <br /> 
   4- Train with Google Colab. (Fine-tuning)
 ## Clone the Darknet: 
-  1- After completing the first two steps mentioned above, you have to clone the [Darknet repo ](https://github.com/pjreddie/darknet) .
-  2- After cloning the repository, put images and annotation data to  " /darknet/data/(Name of your folder contains the images and labels ) ".
+  1- After completing the first two steps mentioned above, you have to clone the [Darknet repo ](https://github.com/pjreddie/darknet) . <br />
+  2- After cloning the repository, put images and annotation data to  " /darknet/data/(Name of your folder contains the images and labels ) " .
   
