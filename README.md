@@ -13,6 +13,7 @@
 ## Generate Train.txt and Test.txt: <br />
   1- Use the script " Dataset-Splitter.py " to split the dataset into train and test. <br />
   2- Place the created Train.txt and Test.txt files into  " /darknet/cfg " .<br />
+  3- In this repo in the following lines I will name these files as  person-train.txt and person-test.txt. You can name these whatevet you want.<br />
   
 ## Prepare cfg Files  <br />
   1- cfg files describe  settings like a number of batch and structure of the model.<br />
