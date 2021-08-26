@@ -90,5 +90,11 @@ ARCH= -gencode arch=compute_30,code=sm_30 \
 # ARCH= -gencode arch=compute_52,code=compute_52
 
  ```
-    
+ 
+  # Start the Training <br/>
+  
+  --- I have used google colab for this section, I also have placed the notebook which I used in the repo but I recommend you to follow along from here before dive into the notebook.
+ 
+
+
     
