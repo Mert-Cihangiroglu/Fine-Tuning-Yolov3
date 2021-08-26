@@ -76,7 +76,19 @@ backup = backup
  ## Modify Makefile<br/>
    1- To activate the GPU you should change GPU=0 to GPU=1 in the Makefile.<br/>
    2- You might need to change the ARC type since the default value of ARC in the makefile seems to be deprecated.<br/>
+   3- In the code snippet below(From original Makefile), You might need to uncomment  <strong> " ARCH= -gencode arch=compute_52,code=compute_52 " </strong><br/>
 
 
+  ```
+ARCH= -gencode arch=compute_30,code=sm_30 \
+      -gencode arch=compute_35,code=sm_35 \
+      -gencode arch=compute_50,code=[sm_50,compute_50] \
+      -gencode arch=compute_52,code=[sm_52,compute_52]
+#      -gencode arch=compute_20,code=[sm_20,sm_21] \ This one is deprecated?
+
+# This is what I use, uncomment if you know your arch and want to specify
+# ARCH= -gencode arch=compute_52,code=compute_52
+
+ ```
     
     
