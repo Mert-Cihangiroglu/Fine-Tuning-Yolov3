@@ -24,3 +24,5 @@
   7- Change max_batches. Darknet YOLO repeats learning for number of max_batches times and so learning is not over if max_batches is too large.The value of      max_batches seems to be number of classes * 2000 [*] . <br />
   8- In this repo, the value of max_batches will be 2000 because the object to detect is one (person) .<br />
   9- I set the value of max_batches to 4000 to repeat learning more.<br />
+  10 - Set steps to 80% and 90% of max_batches. ' steps=3200,3600 ' . <br />
+  11 - Modify classes and filters. The object to detect is one and so classes=1. Calculate filters=(classes + 5)*number of mask. In yolov3.cfg, number of mask is 3 because mask=6,7,8 is written. Therefore, set filters=18. <br />
