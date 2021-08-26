@@ -61,7 +61,16 @@ activation=leaky
    19- Move these two cfg files (person-frozen.cfg and person.cfg) into " darknet/cfg " .
    
  ## Create names file <br/>  
-   Names of objects to be detected should be written in names file. Create a  person.names and write person inside . (you put whatever you want to detect) . Then, move person.names in "darknet/data"
+   Names of objects to be detected should be written in names file. Create a  person.names and write person inside . (you put whatever you want to detect) . Then, move person.names in "darknet/data" . <br/>
+ ## Create data file<br/>
+ Create a file like person.data and fill it like the snippet below. Then move this file into  " darknet/cfg " .<br/>
+   ```
+classes= 1
+train  = cfg/person-train.txt
+valid  = cfg/person-test.txt
+names = data/person.names
+backup = backup
+ ```
 
 
     
