@@ -74,8 +74,8 @@ backup = backup
  ```
  
  ## Modify Makefile<br/>
-   1- To activate the GPU you should change GPU=0 to GPU=1 in the Makefile.
-   2- You might want to change the ARC type since the default value of ARC in the makefile seems to be deprecated.
+   1- To activate the GPU you should change GPU=0 to GPU=1 in the Makefile.<br/>
+   2- You might need to change the ARC type since the default value of ARC in the makefile seems to be deprecated.<br/>
 
 
     
