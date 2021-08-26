@@ -125,3 +125,8 @@ cd ./darknet/
 cd ./darknet
 ./darknet detector test cfg/person.data cfg/person.cfg /content/gdrive/My\ Drive/tmp/person-frozen_final.weights /content/gdrive/My\ (Path to the test image) 
   ```
+  -- And finally predictions.jpg will be generated. To see the output use the snippet below.
+   ``` 
+  from IPython.display import Image,display_jpeg
+display_jpeg(Image('darknet/predictions.jpg'))
+ ``` 
