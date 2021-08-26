@@ -101,4 +101,18 @@ git clone (the url of the repository which contains the modified darknet repo. O
 cd darknet
 make
  ```
+ -- Download the weights.
+ ```
+!wget https://pjreddie.com/media/files/darknet53.conv.74
+ ```
+ -- Start Training with the below snippet.
+  ```
+%%bash
+cd ./darknet/
+./darknet detector \
+        train \
+        cfg/whill.data \
+        cfg/whill-frozen.cfg \
+        /content/darknet53.conv.74 > /content/log
+ ```
 
