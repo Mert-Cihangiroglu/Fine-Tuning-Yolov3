@@ -44,8 +44,8 @@ pad=1
 activation=leaky
 ```
    13- Let's Prepare the person.cfg.<br />
-   14 - The another cfg file is needed when YOLO detects objects with trained weight in a image.
-   15-  Copy person-frozen.cfg and create whill.cfg which will be used to detect a object in a image.
+   14 - The another cfg file is needed when YOLO detects objects with trained weight in a image.<br />
+   15-  Copy person-frozen.cfg and create whill.cfg which will be used to detect a object in a image.<br />
    16- Then, person.cfg should be modified<br />
    17- Remove comment out batch and subdivisions just after #Testing.<br />
    18- Add comment out batch and subdivisions just after like the snippet below. #Training.<br /> 
