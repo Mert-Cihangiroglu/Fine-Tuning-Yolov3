@@ -111,8 +111,8 @@ make
 cd ./darknet/
 ./darknet detector \
         train \
-        cfg/whill.data \
-        cfg/whill-frozen.cfg \
+        cfg/person.data \
+        cfg/person-frozen.cfg \
         /content/darknet53.conv.74 > /content/log
  ```
 
