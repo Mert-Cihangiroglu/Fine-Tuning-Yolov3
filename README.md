@@ -36,9 +36,10 @@
    15-  Copy person-frozen.cfg and create whill.cfg which will be used to detect a object in a image.
    16- Then, person.cfg should be modified<br />
    17- Remove comment out batch and subdivisions just after #Testing.<br />
-   18- Add comment out batch and subdivisions just after #Training.<br />
-   19- [net]<br />
-      # Testing<br /><br />
+   18- Add comment out batch and subdivisions just after #Training.<br /> 
+   # 
+      [net]<br />
+      Testing<br />
       batch=1<br />
       subdivisions=1<br />
       # Training<br />
