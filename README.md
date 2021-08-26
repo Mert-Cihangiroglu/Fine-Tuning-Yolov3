@@ -27,4 +27,4 @@
   10 - Set steps to 80% and 90% of max_batches. ' steps=3200,3600 ' . <br />
   11 - Modify classes and filters. The object to detect is one and so classes=1. Calculate filters=(classes + 5)*number of mask. In yolov3.cfg, number of mask is 3 because mask=6,7,8 is written. Therefore, set filters=18. <br />
   
-  ![What is this](Frozen%20.png)
+  ![What is this](Frozen%90.png)
