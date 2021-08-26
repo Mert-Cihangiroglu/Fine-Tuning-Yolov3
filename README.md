@@ -14,3 +14,7 @@
   1- Use the script " Dataset-Splitter.py " to split the dataset into train and test. <br />
   2- Place the created Train.txt and Test.txt files into  " /darknet/cfg " .<br />
   
+## Prepare cfg Files  <br />
+  1- cfg files describe  settings like a number of batch and structure of the model.<br />
+  2- We will create our cfg files based on existing  yolov3.cfg.<br />
+  3- I create person-frozen.cfg as training and person.cfg as detecting people in an image. <br />
