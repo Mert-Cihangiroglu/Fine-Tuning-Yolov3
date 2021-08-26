@@ -37,11 +37,12 @@
    16- Then, person.cfg should be modified<br />
    17- Remove comment out batch and subdivisions just after #Testing.<br />
    18- Add comment out batch and subdivisions just after #Training.<br />
-   19- [net]
-      # Testing
-      batch=1
-      subdivisions=1
-      # Training
-      # batch=16
-      # subdivisions=4
+   19- [net]<br />
+      # Testing<br /><br />
+      batch=1<br />
+      subdivisions=1<br />
+      # Training<br />
+      # batch=16<br />
+      # subdivisions=4<br />
+      
 
