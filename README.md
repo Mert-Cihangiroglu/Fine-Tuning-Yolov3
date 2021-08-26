@@ -28,7 +28,21 @@
   11 - Modify classes and filters. The object to detect is one and so classes=1. Calculate filters=(classes + 5)*number of mask. In yolov3.cfg, number of mask is 3 because mask=6,7,8 is written. Therefore, set filters=18. <br />
   12- In darknet YOLO, you can set which layer is frozen using a parameter stopbackward=1 like the image below in person-frozen.cfg file.<br />
 
-   ![What is this](Frozen%20.png)
+   ```
+   [shortcut]
+from=-3
+activation=linear
+stopbackward=1 # freeze weights above
+######################
+
+[convolutional]
+batch_normalize=1
+filters=512
+size=1
+stride=1
+pad=1
+activation=leaky
+```
    
    <br />
    13- Let's Prepare the person.cfg.<br />
