@@ -115,4 +115,7 @@ cd ./darknet/
         cfg/person-frozen.cfg \
         /content/darknet53.conv.74 > /content/log
  ```
-
+ -- Training will take a while. After the training is done save the created weight files into google drive otherwise when the session is over all the weights will disappear.
+  ```
+%cp /content/darknet/backup/whill-* /content/gdrive/My\ Drive/tmp/
+ ```
