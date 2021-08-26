@@ -38,6 +38,7 @@
    17- Remove comment out batch and subdivisions just after #Testing.<br />
    18- Add comment out batch and subdivisions just after #Training.<br /> 
    #Change it like the following: 
+   ```
       [net]<br />
       Testing<br />
       batch=1<br />
@@ -45,5 +46,5 @@
       # Training<br />
       # batch=16<br />
       # subdivisions=4<br />
-      
+  ```
 
