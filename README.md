@@ -19,5 +19,8 @@
   2- We will create our cfg files based on existing  yolov3.cfg.<br />
   3- I create person-frozen.cfg as <strong>training </strong> and person.cfg as <strong> detecting people</strong> in an image. <br />
   4- Copy yolov3.cfg and create person-frozen.cfg.<br />
-  5- Then, person- frozen.cfg is modified like below.<br />
-  6- Modify batch and subdivisions. You might play with this parameters according to your hardware capabilities, here  I use 16 and 4 . 
+  5- Then, person- frozen.cfg is shoudl be modified.<br />
+  6- Modify batch and subdivisions. You might play with this parameters according to your hardware capabilities, here  I use 16 and 4 . <br />
+  7- Change max_batches.darknet YOLO repeats learning for number of max_batches times and so learning is not over if max_batches is too large.The value of      max_batches seems to be number of classes * 2000 [*] .<br />
+  8- In this post, the value of max_batches will be 2000 because the object to detect is one (person) .<br />
+  9- I set the value of max_batches to 4000 to repeat learning more.<br />
