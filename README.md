@@ -119,9 +119,9 @@ cd ./darknet/
   ```
 %cp /content/darknet/backup/person-* /content/gdrive/My\ Drive/tmp/
  ```
- -- After saving the weight files you can test your model with your new weight file. 
+ -- After saving the weight files you can test your model with your new weight file.Notice that this time we use person.cfg file.
   ``` 
  %%bash
 cd ./darknet
-./darknet detector test cfg/whill.data cfg/whill.cfg /content/gdrive/My\ Drive/tmp/whill-frozen_final.weights /content/gdrive/My\ (Path to the test image) 
+./darknet detector test cfg/whill.data cfg/person.cfg /content/gdrive/My\ Drive/tmp/person-frozen_final.weights /content/gdrive/My\ (Path to the test image) 
   ```
