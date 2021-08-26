@@ -10,7 +10,7 @@
 ## Clone the Darknet: <br />
   1- After completing the first two steps mentioned above, you have to clone the [Darknet repo ](https://github.com/pjreddie/darknet) . <br />
   2- After cloning the repository, put images and annotation data to  " /darknet/data/(Name of your folder contains the images and labels ) " .<br />
-  3- You can first fork the darknet repo and then commit the changes that we will make, you can also download the darknet on local machine then upload everything into googledrive and directly use everything with mounting the google drive.
+  3- You can first fork the darknet repo and then commit the changes that we will make, you can also download the darknet on local machine make modifications then upload everything into google drive and directly use the darknet from google colab by just calling everything from your drive.
 ## Generate Train.txt and Test.txt: <br />
   1- Use the script " Dataset-Splitter.py " to split the dataset into train and test. <br />
   2- Place the created Train.txt and Test.txt files into  " /darknet/cfg " .<br />
@@ -97,7 +97,7 @@ ARCH= -gencode arch=compute_30,code=sm_30 \
   --- I have used google colab for this section, I also have placed the notebook which I used in the repo but I recommend you to follow along from here before dive into the notebook.
    ```
 %%bash
-git clone (the url of the repository which contains the modified darknet repo.)
+git clone (the url of the repository which contains the modified darknet repo. Or simply mount to your googdrive and use from there.)
 cd darknet
 make
  ```
