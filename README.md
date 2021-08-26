@@ -10,4 +10,7 @@
 ## Clone the Darknet: 
   1- After completing the first two steps mentioned above, you have to clone the [Darknet repo ](https://github.com/pjreddie/darknet) . <br />
   2- After cloning the repository, put images and annotation data to  " /darknet/data/(Name of your folder contains the images and labels ) " .
+## Generate Train.txt and Test.txt:
+  1- Use the script " Dataset-Splitter.py " to split the dataset into train and test. 
+  2- Place the created Train.txt and Test.txt files into  " /darknet/cfg " .
   
