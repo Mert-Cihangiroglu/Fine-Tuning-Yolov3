@@ -17,7 +17,7 @@
 ## Prepare cfg Files  <br />
   1- cfg files describe  settings like a number of batch and structure of the model.<br />
   2- We will create our cfg files based on existing  yolov3.cfg.<br />
-  3- I create person-frozen.cfg as <strong>training<strong> and person.cfg as <strong> detecting people<strong> in an image. <br />
-  4-  Copy yolov3.cfg and create person-frozen.cfg.<br />
-      Then, person- frozen.cfg is modified like below.<br />
-      Modify batch and subdivisions. You might play with this parameters according to your hardware capabilities, here  I use 16 and 4 . 
+  3- I create person-frozen.cfg as <strong>training </strong> and person.cfg as <strong> detecting people</strong> in an image. <br />
+  4- Copy yolov3.cfg and create person-frozen.cfg.<br />
+  5- Then, person- frozen.cfg is modified like below.<br />
+  6- Modify batch and subdivisions. You might play with this parameters according to your hardware capabilities, here  I use 16 and 4 . 
