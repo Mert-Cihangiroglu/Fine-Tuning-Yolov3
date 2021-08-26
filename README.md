@@ -94,7 +94,10 @@ ARCH= -gencode arch=compute_30,code=sm_30 \
   # Start the Training <br/>
   
   --- I have used google colab for this section, I also have placed the notebook which I used in the repo but I recommend you to follow along from here before dive into the notebook.
- 
+   ```
+%%bash
+git clone (the url of the repository which contains the modified darknet repo.)
+cd darknet
+make
+ ```
 
-
-    
