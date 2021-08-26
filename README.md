@@ -117,5 +117,11 @@ cd ./darknet/
  ```
  -- Training will take a while. After the training is done save the created weight files into google drive otherwise when the session is over all the weights will disappear.
   ```
-%cp /content/darknet/backup/whill-* /content/gdrive/My\ Drive/tmp/
+%cp /content/darknet/backup/person-* /content/gdrive/My\ Drive/tmp/
  ```
+ -- After saving the weight files you can test your model with your new weight file. 
+  ``` 
+ %%bash
+cd ./darknet
+./darknet detector test cfg/whill.data cfg/whill.cfg /content/gdrive/My\ Drive/tmp/whill-frozen_final.weights /content/gdrive/My\ (Path to the test image) 
+  ```
