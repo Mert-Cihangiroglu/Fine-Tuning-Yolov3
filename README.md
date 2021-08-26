@@ -123,5 +123,5 @@ cd ./darknet/
   ``` 
  %%bash
 cd ./darknet
-./darknet detector test cfg/whill.data cfg/person.cfg /content/gdrive/My\ Drive/tmp/person-frozen_final.weights /content/gdrive/My\ (Path to the test image) 
+./darknet detector test cfg/person.data cfg/person.cfg /content/gdrive/My\ Drive/tmp/person-frozen_final.weights /content/gdrive/My\ (Path to the test image) 
   ```
