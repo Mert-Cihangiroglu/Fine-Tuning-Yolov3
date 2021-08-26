@@ -1,6 +1,6 @@
 # Fine-Tuning-Yolov3
 
--- This repository explains how you can fine tune the Yolov3 model with your custom dataset. 
+-- This repository explains how you can fine tune the Yolov3 model with your custom dataset. I have a dataset which I extracted from security camera recordings. I wanted to fine tune the yolov3 detection model on this particular dataset to increase the performance of the model when we deploy the model on this particular security cameras. I can not share the dataset here because it is private use.
 
 ## The outline of my work is as folllows: <br />
   1- Collect your images. <br />
