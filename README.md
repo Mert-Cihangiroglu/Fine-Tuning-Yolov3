@@ -49,8 +49,7 @@ activation=leaky
    16- Then, person.cfg should be modified<br />
    17- Remove comment out batch and subdivisions just after #Testing.<br />
    18- Add comment out batch and subdivisions just after like the snippet below. #Training.<br /> 
-  
-   ```
+  ```
       [net]<br />
       Testing<br />
       batch=1<br />
@@ -58,5 +57,12 @@ activation=leaky
       # Training<br />
       # batch=16<br />
       # subdivisions=4<br />
-  ```
+ ```
+   19- Move these two cfg files (person-frozen.cfg and person.cfg) into " darknet/cfg " .
+   
+ ## Create names file <br/>  
+   Names of objects to be detected should be written in names file  Make person.names and write person. Then, move person.names in "darknet/data"
 
+
+    
+    
