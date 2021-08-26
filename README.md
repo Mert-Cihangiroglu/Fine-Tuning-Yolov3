@@ -26,7 +26,7 @@
   9- I set the value of max_batches to 4000 to repeat learning more.<br />
   10 - Set steps to 80% and 90% of max_batches. ' steps=3200,3600 ' . <br />
   11 - Modify classes and filters. The object to detect is one and so classes=1. Calculate filters=(classes + 5)*number of mask. In yolov3.cfg, number of mask is 3 because mask=6,7,8 is written. Therefore, set filters=18. <br />
-  12- In darknet YOLO, you can set which layer is frozen using a parameter stopbackward=1 like the image below in person-frozen.cfg file.<br />
+  12- In darknet YOLO, you can set which layer is frozen using a parameter stopbackward=1 like the snippet below in person-frozen.cfg file.<br />
 
    ```
    [shortcut]
@@ -43,15 +43,12 @@ stride=1
 pad=1
 activation=leaky
 ```
-   
-   <br />
    13- Let's Prepare the person.cfg.<br />
    14 - The another cfg file is needed when YOLO detects objects with trained weight in a image.
    15-  Copy person-frozen.cfg and create whill.cfg which will be used to detect a object in a image.
    16- Then, person.cfg should be modified<br />
    17- Remove comment out batch and subdivisions just after #Testing.<br />
-   18- Add comment out batch and subdivisions just after #Training.<br /> 
-  
+   18- Add comment out batch and subdivisions just after like the snippet below. #Training.<br /> 
   
    ```
       [net]<br />
